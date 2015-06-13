@@ -1,0 +1,14 @@
+.wdaCode-highlighted code {
+	border-left:1px solid #eee;
+	padding:6px 6px 6px 12px;
+	overflow:auto;
+	display:block;
+	white-space: pre;
+	font-size:12px;
+	max-height:300px;
+}
+.hljs-keyword {color:#228 !important;}
+.gist .gist-file {border:0 !important; margin-bottom:0 !important;}
+.gist .gist-data {max-height:300px; border:0 !important; background: transparent !important;}
+.gist table, .gist .line-numbers {background: transparent !important;}
+.gist table .line:hover {font-weight:bold;}

@@ -1,0 +1,19 @@
+* {margin:0; padding:0;}
+body {width:400px; font:14px Arial;}
+.root {margin: 8px 16px;}
+h1, h2 {font-size:18px; margin-bottom:14px}
+h2 {font-size:14px;}
+h1.logo img {vertical-align:middle; margin-right:14px; float:left;}
+h1.logo em {font-size:12px; color:#aaa; display:block; margin-top:9px;}
+h1.logo:after {content:''; display:block; clear:both;}
+
+#gistform {width:96%; padding:2%; border-top:1px dotted #e2e2e2; padding-top:12px;}
+#gistform input, #gistform textarea {width:100%; padding:2%; margin-bottom:14px; border:1px solid #d4d4d4;}
+#gistform textarea {height:300px; oveflow:scroll;}
+#gistform input:focus, #gistform textarea:focus {outline:1px solid #fff; border:1px solid #aaa;}
+
+.gistInfo {padding:4px 8px; cursor: -webkit-grab; background:url(img/copy2clipboard.gif) no-repeat 98% 50%; border:1px solid #aaa;}
+.gistInfo a {color:rgb(48, 92, 255);}
+
+#submitGist {background:#d4d4d4; color:#333; cursor:pointer;}
+#submitGist:hover {background:#3d7e3b; color:#fff; }
